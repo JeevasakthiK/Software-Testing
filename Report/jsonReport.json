@@ -1,0 +1,205 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "To create New Account",
+        "description": "",
+        "id": "to-validate-signup-page-in-facebook;to-create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7372485900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the browser and maximize window",
+            "match": {
+              "location": "Fb_Signup.to_launch_the_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4345666300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "Fb_Signup.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3312931200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To click the create new account button",
+            "match": {
+              "location": "Fb_Signup.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3072545100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass firstname in firstname text box",
+            "match": {
+              "location": "Fb_Signup.to_pass_firstname_in_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Jeeva",
+                  "Sakthi",
+                  "Jeevasakthi"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44012500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To pass surname in surname box",
+            "match": {
+              "location": "Fb_Signup.to_pass_surname_in_surname_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Java",
+                  "Selenium",
+                  "frameworks"
+                ]
+              },
+              {
+                "cells": [
+                  "Api",
+                  "TestNg",
+                  "cucumber"
+                ]
+              },
+              {
+                "cells": [
+                  "Automation",
+                  "Manual",
+                  "Testing"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98177800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "To pass mob or email in email box",
+            "match": {
+              "location": "Fb_Signup.to_pass_mob_or_email_in_email_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Number1",
+                  "9677783073"
+                ]
+              },
+              {
+                "cells": [
+                  "Number2",
+                  "9043617617"
+                ]
+              },
+              {
+                "cells": [
+                  "Email1",
+                  "jeevasakthi2404@gamil.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Email2",
+                  "jkriderns200@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63041300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "To create new password in new password box",
+            "match": {
+              "location": "Fb_Signup.to_create_new_password_in_new_password_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Password1",
+                  "Password2",
+                  "Password3"
+                ]
+              },
+              {
+                "cells": [
+                  "pass@1234",
+                  "1234@pass",
+                  "12@34pass"
+                ]
+              },
+              {
+                "cells": [
+                  "4321@pass",
+                  "pass@4321",
+                  "@pass1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4592883900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "To close the browser",
+            "match": {
+              "location": "Fb_Signup.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "To validate signup page in facebook",
+    "description": "",
+    "id": "to-validate-signup-page-in-facebook",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FbSignUp.feature",
+    "tags": []
+  }
+]
